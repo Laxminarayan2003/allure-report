@@ -1,0 +1,46 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e7]:
+    - link "Selenium Online Training" [ref=e9] [cursor=pointer]:
+      - /url: https://www.toolsqa.com/selenium-training/
+      - img "Selenium Online Training" [ref=e10]
+    - generic [ref=e12]:
+      - link "Elements" [ref=e13] [cursor=pointer]:
+        - /url: /elements
+        - generic [ref=e15]:
+          - img [ref=e18]
+          - heading "Elements" [level=5] [ref=e21]
+      - link "Forms" [ref=e22] [cursor=pointer]:
+        - /url: /forms
+        - generic [ref=e24]:
+          - img [ref=e27]
+          - heading "Forms" [level=5] [ref=e31]
+      - link "Alerts, Frame & Windows" [ref=e32] [cursor=pointer]:
+        - /url: /alertsWindows
+        - generic [ref=e34]:
+          - img [ref=e37]
+          - heading "Alerts, Frame & Windows" [level=5] [ref=e40]
+      - link "Widgets" [ref=e41] [cursor=pointer]:
+        - /url: /widgets
+        - generic [ref=e43]:
+          - img [ref=e46]
+          - heading "Widgets" [level=5] [ref=e50]
+      - link "Interactions" [ref=e51] [cursor=pointer]:
+        - /url: /interaction
+        - generic [ref=e53]:
+          - img [ref=e56]
+          - heading "Interactions" [level=5] [ref=e59]
+      - link "Book Store Application" [ref=e60] [cursor=pointer]:
+        - /url: /books
+        - generic [ref=e62]:
+          - img [ref=e65]
+          - heading "Book Store Application" [level=5] [ref=e68]
+  - contentinfo [ref=e69]:
+    - generic [ref=e70]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
