@@ -49,6 +49,7 @@ test('should take a screenshot of the complete page', async ({ page }) => {
   // Optionally, you can add an assertion to check if the page has loaded successfully
   expect(await page.title()).toBe('Login'); // Replace with the actual title of the page
 });
+
 test('should have a clickable login button', async ({ page }) => {
   // Replace with your URL where the login page is located
   await page.goto('http://localhost:3004');
