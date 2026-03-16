@@ -1,0 +1,269 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Amazon" [ref=e8] [cursor=pointer]:
+          - /url: /ref=navm_hdr_logo
+        - search [ref=e11]:
+          - textbox "Search" [ref=e14]:
+            - /placeholder: ""
+          - generic "Go" [ref=e17] [cursor=pointer]:
+            - button "Go" [ref=e18]
+        - generic [ref=e20]:
+          - link "Account" [ref=e21] [cursor=pointer]:
+            - /url: /gp/css/homepage.html
+            - generic [ref=e23]: Account
+          - link "Returns & Orders" [ref=e24] [cursor=pointer]:
+            - /url: /gp/css/order-history
+            - generic [ref=e25]: Returns
+            - generic [ref=e26]: "& Orders"
+          - link "Cart" [ref=e27] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e29]: "0"
+            - generic [ref=e32]: Cart
+  - generic [ref=e39]:
+    - generic:
+      - link "Home" [ref=e40]:
+        - /url: /onemedical/?ref_=aom_nv_logo_sf
+      - link "Health AI" [ref=e45]:
+        - /url: /health-ai?ref_=health_subnav_health_ai
+        - generic [ref=e47]: Health AI
+        - img [ref=e48]
+      - link "Pay-per-visit" [ref=e49]:
+        - /url: /onemedical/ppv?ref_=aom_nav_ppv_lp
+        - generic [ref=e51]: Pay-per-visit
+      - link "Membership" [ref=e52]:
+        - /url: /prime?ref_=nav_cs_all_health_ingress_onem_highlight_aom
+        - generic [ref=e54]: Membership
+      - link "Help/FAQ" [ref=e55]:
+        - /url: /onemedical/help?ref_=aom_nav_faq
+        - generic [ref=e57]: Help/FAQ
+      - button "Browse all health" [ref=e61] [cursor=pointer]:
+        - generic [ref=e65]: Browse all health
+  - generic [ref=e78]:
+    - generic [ref=e79]:
+      - img "Prime | One Medical" [ref=e82]
+      - generic [ref=e83]:
+        - heading "24/7 on-demand care with Prime" [level=1] [ref=e85]
+        - generic [ref=e87]: This membership benefit is exclusive for Prime members.
+        - link "Sign in" [ref=e91] [cursor=pointer]:
+          - /url: https://health.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fhealth.amazon.com%2Fprime%3FreturnFromSignin%3D1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ignoreAuthState=1&_encoding=UTF8&ref=nav_cs_all_health_ingress_onem_h
+        - generic [ref=e94]: Appointments are billed to you or your insurance.
+    - img "A stethoscope against a flat prime blue background." [ref=e97]
+  - generic [ref=e104]:
+    - heading "For $99/year, Prime members get access to:" [level=3] [ref=e106]
+    - generic [ref=e108]:
+      - generic [ref=e113]: 24/7 on-demand video chat or messaging (cost included in the membership)
+      - generic [ref=e118]: Start new messages with your care team anytime
+      - generic [ref=e123]: Request new prescriptions through the app
+  - generic [ref=e134]:
+    - heading "Feeling better starts here" [level=3] [ref=e136]
+    - generic [ref=e137]:
+      - generic [ref=e139]: "Members can get on-demand care, including online doctor or clinician visits, through the One Medical app for common conditions like:"
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - generic [ref=e143]: • Colds and flus
+          - generic [ref=e145]: • Allergies
+          - generic [ref=e147]: • Stomach bugs
+          - generic [ref=e149]: • Vomiting
+          - generic [ref=e151]: • Headaches
+          - generic [ref=e153]: • Urinary tract infections
+        - generic [ref=e154]:
+          - generic [ref=e156]: • Yeast infections
+          - generic [ref=e158]: • Skin issues
+          - generic [ref=e160]: • Minor cuts
+          - generic [ref=e162]: • Eye issues
+          - generic [ref=e164]: • +40 common conditions...
+  - generic [ref=e172]:
+    - generic [ref=e173]:
+      - generic [ref=e175]:
+        - generic [ref=e176]: See how much you save with Prime
+        - paragraph [ref=e177]: With a membership you can talk to providers virtually 24/7, request new prescriptions, and more.
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - generic [ref=e182]: Number of One Medical memberships
+            - generic [ref=e183]:
+              - 'button "Decrement the member quantity. Current value: 1. Minimum is: 1. Maximum is 6" [disabled] [ref=e184]':
+                - img [ref=e186]
+              - spinbutton "member quantity" [ref=e189]: "1"
+              - 'button "Increment the member quantity. Current value: 1. Minimum is: 1. Maximum is 6" [ref=e190] [cursor=pointer]':
+                - img [ref=e192]
+          - separator [ref=e194]
+          - button "Annual $ 99 00 / year* More billing options may be available at sign in." [ref=e196] [cursor=pointer]:
+            - generic [ref=e198]:
+              - heading "Annual" [level=3] [ref=e200]
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - superscript [ref=e203]: $
+                  - text: "99"
+                  - superscript [ref=e204]: "00"
+                - text: / year*
+              - generic [ref=e205]: More billing options may be available at sign in.
+        - generic [ref=e206]: "Regular price without Prime: $199/year for each member"
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - text: "*Taxes may apply. Cancel anytime."
+            - link "Terms apply." [ref=e210]:
+              - /url: /prime/onemedical/terms
+          - paragraph [ref=e211]:
+            - link "Learn about membership alternatives" [ref=e212]:
+              - /url: https://www.onemedical.com/faq/membership-fee-alternatives/?utm_source=amazon&utm_medium=hb-lp&utm_content=buybox-link
+              - text: Learn about membership alternatives
+              - img [ref=e213]
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - img [ref=e219]
+          - generic [ref=e221]: "!"
+          - paragraph [ref=e222]: This benefit is exclusively for Prime members
+        - button "Sign in" [ref=e224] [cursor=pointer]
+    - generic [ref=e226]:
+      - heading "Add family members for only $66/year each" [level=3] [ref=e227]
+      - generic [ref=e228]: Buy additional memberships (up to 5) and unlock greater Prime savings. That's ongoing and on-call medical care to get and stay healthy—when you need it.
+  - link "Just want a one-time virtual visit? Learn more and get started." [ref=e236]:
+    - /url: /onemedical/ppv?ref_=hblp_ppv_banner
+    - generic [ref=e237]:
+      - strong [ref=e240]: Just want a one-time virtual visit?
+      - generic [ref=e242]: Learn more and get started.
+  - generic [ref=e251]:
+    - heading "Find a One Medical location near you" [level=2] [ref=e253]
+    - generic [ref=e256]:
+      - generic [ref=e259]:
+        - text: No locations near
+        - button "82010. Change location." [ref=e262] [cursor=pointer]:
+          - generic [ref=e263]:
+            - text: "82010"
+            - img [ref=e264]
+      - generic [ref=e266]:
+        - separator [ref=e267]
+        - button "Choose a One Medical Location" [ref=e271] [cursor=pointer]:
+          - generic [ref=e272]:
+            - generic [ref=e274]: Choose a One Medical Location
+            - img [ref=e276]
+        - paragraph [ref=e280]: For informational purposes only. Selections aren't saved.
+  - generic [ref=e289]:
+    - heading "See what makes One Medical different" [level=3] [ref=e291]:
+      - strong [ref=e292]: See what makes One Medical different
+    - generic [ref=e299]: What One Medical members are saying
+    - generic [ref=e303]:
+      - generic [ref=e305]:
+        - generic [ref=e307]: “I love One Medical. Blew my mind that I spent my entire appointment with my doctor, vs. sitting alone in a cold room for 20 min after a nurse takes vitals, only to see my doc for 1-2 min. Truly a revolutionary experience.”
+        - generic [ref=e309]: – Member at New York, NY
+      - generic [ref=e311]:
+        - generic [ref=e313]: “[One Medical] makes getting care so so easy when it was always difficult and prevented me from being proactive in the past.”
+        - generic [ref=e315]: – Member at Austin, TX
+      - generic [ref=e317]:
+        - generic [ref=e319]: "“Just had my first annual medical check-up with @onemedical and it was a 10/10 experience: great app, easy new patient intake flow, nice facilities, excellent quality of care. Would be good to see them expand into more countries!”"
+        - generic [ref=e321]: – Member at Chicago, IL
+      - generic [ref=e323]:
+        - generic [ref=e325]: “The service at @onemedical is consistently 5 star quality. It’s never been more convenient or more comfortable to obtain care.”
+        - generic [ref=e327]: – Member at New York, NY
+      - generic [ref=e329]:
+        - generic [ref=e331]: “I'm 30 years old and just now found a primary care that gave me an all around great experience. I genuinely felt heard - given resources and personal recommendations for any next steps. I only saw the doctor I chose, which greeted me from the waiting room and brought me back herself.”
+        - generic [ref=e333]: – Member at Atlanta, GA
+      - generic [ref=e335]:
+        - generic [ref=e337]: “I love One Medical so much. It's one of the services that has improved my life the most. They make getting care so so easy when it was always difficult and prevented me from being proactive in the past.”
+        - generic [ref=e339]: – Member at Austin, TX
+  - generic [ref=e356]:
+    - generic [ref=e359]: PAY-PER-VISIT
+    - heading "Just want a one-time virtual visit?" [level=3] [ref=e361]
+    - generic [ref=e363]: Day or night, you can start a one-time virtual visit from One Medical to find treatment for 30+ common conditions.
+    - generic [ref=e366]:
+      - generic [ref=e368]: From
+      - generic [ref=e370]: $29
+      - generic [ref=e372]: /message visit*
+      - generic [ref=e374]: "|"
+      - generic [ref=e376]: $49
+      - generic [ref=e378]: /video visit
+    - generic [ref=e380]: "*Prices vary by condition and visit type. Prices subject to change. Messaging is not available in some states."
+    - generic [ref=e381]:
+      - img "Bright teal circle with a checkmark in the middle" [ref=e384]
+      - generic [ref=e386]: Quick treatment of common conditions
+    - generic [ref=e387]:
+      - img "Bright teal circle with a checkmark in the middle" [ref=e390]
+      - generic [ref=e392]: Care in minutes by message or video
+    - generic [ref=e393]:
+      - img "Bright teal circle with a checkmark in the middle" [ref=e396]
+      - generic [ref=e398]: Self-pay visits – insurance not accepted or needed
+    - generic [ref=e399]:
+      - img "Bright teal circle with a checkmark in the middle" [ref=e402]
+      - generic [ref=e404]: FSA/HSA eligible
+    - link "Learn more and get started" [ref=e407] [cursor=pointer]:
+      - /url: /onemedical/ppv?ref_=hblp_ppv_cta
+  - generic [ref=e412]:
+    - link "Finally, a pharmacy that really delivers. Learn more about Amazon pharmacy." [ref=e415]:
+      - /url: https://pharmacy.amazon.com/?ref_=prime_onemedical_lp
+      - img "Finally, a pharmacy that really delivers. Learn more about Amazon pharmacy." [ref=e418]
+    - generic [ref=e420]:
+      - heading "You may be wondering" [level=2] [ref=e422]:
+        - strong [ref=e423]: You may be wondering
+      - generic [ref=e424]:
+        - heading "Getting started" [level=3] [ref=e426]
+        - button "What is Amazon One Medical?" [ref=e429] [cursor=pointer]
+        - button "How is One Medical Membership different from Amazon One Medical Pay-per-visit? Which should I choose?" [ref=e432] [cursor=pointer]
+        - button "What makes One Medical different from other primary care and urgent care practices?" [ref=e435] [cursor=pointer]
+        - generic [ref=e436]:
+          - heading "Membership" [level=3] [ref=e438]
+          - button "What’s included in my One Medical Membership?" [ref=e441] [cursor=pointer]
+          - button "Does a One Medical Membership come with my Amazon Prime Membership?" [ref=e444] [cursor=pointer]
+          - button "I’m not a Prime Member. Can I still get care?" [ref=e447] [cursor=pointer]
+          - button "How do I book an appointment as a One Medical member?" [ref=e450] [cursor=pointer]
+        - generic [ref=e451]:
+          - heading "Pricing, payment, and insurance" [level=3] [ref=e453]
+          - button "I purchased a One Medical Membership through my Prime account. How do I connect my Prime pricing to my One Medical account?" [ref=e456] [cursor=pointer]
+          - button "Why is there a membership fee?" [ref=e459] [cursor=pointer]
+          - button "Does One Medical accept insurance? Is One Medical an insurance plan?" [ref=e462] [cursor=pointer]
+          - button "How will I be charged for care at One Medical?" [ref=e465] [cursor=pointer]
+          - button "Can I use One Medical without insurance?" [ref=e468] [cursor=pointer]
+        - generic [ref=e469]:
+          - heading "Care" [level=3] [ref=e471]
+          - button "How do I get care with One Medical?" [ref=e474] [cursor=pointer]
+          - button "Does One Medical offer pediatric care for my kids?" [ref=e477] [cursor=pointer]
+          - button "I’m 65+ years and on Medicare. Does One Medical have an oﬀering for me?" [ref=e480] [cursor=pointer]
+          - button "I only have Medicaid. Can I receive care from One Medical?" [ref=e483] [cursor=pointer]
+          - button "Can One Medical providers write a prescription for my condition?" [ref=e486] [cursor=pointer]
+          - button "Can I get my prescription refilled at One Medical?" [ref=e489] [cursor=pointer]
+          - button "Does One Medical offer chronic diseases treatment?" [ref=e492] [cursor=pointer]
+        - generic [ref=e493]:
+          - heading "Other questions" [level=3] [ref=e495]
+          - button "I still have questions about One Medical. Who can I talk to?" [ref=e498] [cursor=pointer]
+  - generic [ref=e505]:
+    - heading "Get care now with One Medical" [level=3] [ref=e507]:
+      - strong [ref=e508]: Get care now with One Medical
+    - generic [ref=e513]: This benefit is exclusively for Prime members
+    - link "Sign in" [ref=e518] [cursor=pointer]:
+      - /url: https://health.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fhealth.amazon.com%2Fprime%3Fie%3DUTF8&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ignoreAuthState=1&_encoding=UTF8&ref=nav_cs_all_health_ingress_onem_h
+    - separator [ref=e521]
+    - generic [ref=e523]:
+      - text: Have additional questions? See
+      - link "Help / FAQ" [ref=e524]:
+        - /url: https://www.amazon.com/gp/help/customer/display.html?nodeId=TnCD4jKdEDkETKQLpr
+  - contentinfo [ref=e525]:
+    - link "Back to top" [ref=e526]:
+      - /url: "#nav-top"
+      - generic [ref=e528]: Back to top
+    - generic [ref=e529]:
+      - link "Your Account" [ref=e531]:
+        - /url: /gp/css/homepage.html?ref_=footer_ya
+      - link "Your Orders" [ref=e534]:
+        - /url: /gp/css/order-history?ref_=footer_yo
+      - link "Help" [ref=e537]:
+        - /url: /gp/help/customer/display.html?nodeId=508510
+      - link "Already a customer? Sign in" [ref=e540]:
+        - /url: /ap/signin?openid.return_to=&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_whidbey_desktop_us&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+    - link [ref=e545]:
+      - /url: /ref=nav_bb_footer_logo
+    - generic [ref=e547]:
+      - list [ref=e548]:
+        - listitem [ref=e549]:
+          - link "Notice of Privacy Practices" [ref=e550]:
+            - /url: /onemedical/legal/hipaa
+        - listitem [ref=e551]:
+          - link "Nondiscrimination Notice" [ref=e552]:
+            - /url: /onemedical/legal/notice-non-discrimination
+      - generic [ref=e553]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - status [ref=e554]
+```
